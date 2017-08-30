@@ -43,4 +43,4 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* TBD
+* `template-render-format`: Enforces consistent formatting of hbs template rendering in integration tests
