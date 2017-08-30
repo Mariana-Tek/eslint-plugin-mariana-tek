@@ -1,4 +1,4 @@
-# eslint-plugin-mt-eslint-rules
+# eslint-plugin-mariana-tek
 
 Collection of custom ESLint rules for Mariana Tek JS Development Teams
 
