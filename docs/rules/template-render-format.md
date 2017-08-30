@@ -194,14 +194,8 @@ Expected format (single property):
 
 ```
 
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
 ## When Not To Use It
 
 This rule has only been written to lint test files, and should only be added to the eslint config file in the tests folder.  Enabling the rule against application code will throw an error.
 
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+This rule also assumes that you are using spaces instead of tabs, with 4 spaces = 1 tab.  Disable it if you are using tabs or 2 spaces.

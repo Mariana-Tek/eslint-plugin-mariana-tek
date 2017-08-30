@@ -112,6 +112,22 @@ ruleTester.run('template-render-format', rule, {
                 `);
             */
             code: 'this.render(hbs\`\n        {{#component-name\n            prop1=prop1\n            prop2=prop2\n        }}\n            content\n        {{/component-name}}\n\    `);'
+        },
+        {
+            // Multiple property block wrapped in a body tag
+            /*
+            this.render(hbs`
+                <body>
+                    {{#component-name
+                        prop1=prop1
+                        prop2=prop2
+                    }}
+                        content
+                    {{/component-name}}
+                </body>
+            `);
+            */
+            code: 'this.render(hbs\`\n        <body>\n            {{#component-name\n                prop1=prop1\n                prop2=prop2\n            }}\n                content\n            {{/component-name}}\n        </body>\n    `);'
         }
     ],
 

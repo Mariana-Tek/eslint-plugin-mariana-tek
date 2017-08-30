@@ -20,12 +20,12 @@ $ npm install eslint-plugin-mariana-tek --save-dev
 
 ## Usage
 
-Add `mt-eslint-rules` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `mariana-tek` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
     "plugins": [
-        "mt-eslint-rules"
+        "mariana-tek"
     ]
 }
 ```
@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "mt-eslint-rules/rule-name": 2
+        "mariana-tek/rule-name": 2
     }
 }
 ```
