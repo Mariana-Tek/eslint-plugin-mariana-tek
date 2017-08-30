@@ -1,0 +1,13 @@
+machine:
+    node:
+        version: 6.11.1
+
+dependencies:
+    pre:
+        - yarn
+    cache_directories:
+        - ~/.cache/yarn
+
+test:
+    override:
+        - yarn test
