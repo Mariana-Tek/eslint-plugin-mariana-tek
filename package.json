@@ -16,11 +16,14 @@
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "~3.9.1",
-    "mocha": "^3.1.2"
+    "eslint": "^4.3.0",
+    "mocha": "^3.1.2",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-compat": "^1.0.3",
+    "eslint-plugin-import": "^2.7.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">= 6.11.1"
   },
   "license": "ISC"
 }
