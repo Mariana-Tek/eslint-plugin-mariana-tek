@@ -43,4 +43,4 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* `template-render-format`: Enforces consistent formatting of hbs template rendering in integration tests
+* [template-render-format](docs/rules/template-render-format.md): Enforces consistent formatting of hbs template rendering in integration tests
