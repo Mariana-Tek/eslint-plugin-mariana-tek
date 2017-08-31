@@ -10,7 +10,8 @@
   "author": "Mariana Tek",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive"
+    "lint": "./node_modules/.bin/eslint . --ext .js",
+    "test": "yarn lint && mocha tests --recursive"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
